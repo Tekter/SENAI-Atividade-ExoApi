@@ -8567,11 +8567,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "f:\\PC\\Downloads\\SENAI\\PROJETO-API-Chapter\\ExoApi\\ExoApi.csproj",
+      "projectUniqueName": "F:\\PC\\Documentos\\GitHub\\SENAI\\SENAI-Atividade-ExoApi\\ExoApi.csproj",
       "projectName": "ExoApi",
-      "projectPath": "f:\\PC\\Downloads\\SENAI\\PROJETO-API-Chapter\\ExoApi\\ExoApi.csproj",
+      "projectPath": "F:\\PC\\Documentos\\GitHub\\SENAI\\SENAI-Atividade-ExoApi\\ExoApi.csproj",
       "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-      "outputPath": "f:\\PC\\Downloads\\SENAI\\PROJETO-API-Chapter\\ExoApi\\obj\\",
+      "outputPath": "F:\\PC\\Documentos\\GitHub\\SENAI\\SENAI-Atividade-ExoApi\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",

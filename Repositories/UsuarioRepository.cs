@@ -6,16 +6,16 @@ using ExoApi.Models;
 
 namespace ExoApi
 {
-    public class ProjetoRepository
+    public class UsuarioRepository
     {
         private readonly ExoContext _context;
 
-        ProjetoRepository(ExoContext context){
+        UsuarioRepository(ExoContext context){
             _context = context;
         }
 
-        public List<Projeto> Listar(){
-            return _context.Projetos.ToList();
+        public List<Usuario> Listar(){
+            return _context.Usuarios.ToList();
         }
     }
 }

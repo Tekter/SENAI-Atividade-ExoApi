@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "F:\\PC\\Downloads\\SENAI\\PROJETO-API-Chapter\\ExoApi\\ExoApi.csproj": {}
+    "F:\\PC\\Documentos\\GitHub\\SENAI\\SENAI-Atividade-ExoApi\\ExoApi.csproj": {}
   },
   "projects": {
-    "F:\\PC\\Downloads\\SENAI\\PROJETO-API-Chapter\\ExoApi\\ExoApi.csproj": {
+    "F:\\PC\\Documentos\\GitHub\\SENAI\\SENAI-Atividade-ExoApi\\ExoApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\PC\\Downloads\\SENAI\\PROJETO-API-Chapter\\ExoApi\\ExoApi.csproj",
+        "projectUniqueName": "F:\\PC\\Documentos\\GitHub\\SENAI\\SENAI-Atividade-ExoApi\\ExoApi.csproj",
         "projectName": "ExoApi",
-        "projectPath": "F:\\PC\\Downloads\\SENAI\\PROJETO-API-Chapter\\ExoApi\\ExoApi.csproj",
+        "projectPath": "F:\\PC\\Documentos\\GitHub\\SENAI\\SENAI-Atividade-ExoApi\\ExoApi.csproj",
         "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-        "outputPath": "F:\\PC\\Downloads\\SENAI\\PROJETO-API-Chapter\\ExoApi\\obj\\",
+        "outputPath": "F:\\PC\\Documentos\\GitHub\\SENAI\\SENAI-Atividade-ExoApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
