@@ -9,6 +9,6 @@ namespace ExoApi.Models
         public int Id { get; set; }
         public string NomeDoProjeto { get; set; }
         public string Area { get; set; }
-        public string Status { get; set; }
+        public bool Status { get; set; }
     }
 }

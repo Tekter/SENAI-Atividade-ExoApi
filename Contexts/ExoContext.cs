@@ -24,7 +24,7 @@ namespace ExoApi
                     */
                     
                     "Server=localhost\\SQLEXPRESS;"+
-                    "Database=Chapter;"+
+                    "Database=ExoApi;"+
                     "Trusted_Connection=True;"
                     
                 );

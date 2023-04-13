@@ -10,7 +10,7 @@ namespace ExoApi
     {
         private readonly ExoContext _context;
 
-        UsuarioRepository(ExoContext context){
+        public UsuarioRepository(ExoContext context){
             _context = context;
         }
 

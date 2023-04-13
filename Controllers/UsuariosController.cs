@@ -11,6 +11,15 @@ namespace ExoApi.Controllers
     [ApiController]
     public class UsuariosController : ControllerBase
     {
-        
+        private readonly UsuarioRepository _usuarioRepository;
+
+        public UsuariosController(UsuarioRepository usuarioRepository){
+            _usuarioRepository = usuarioRepository;
+        }
+
+        [HttpGet]
+        public IActionResult Listar(){
+            return Ok(_usuarioRepository.Listar());
+        }
     }
 }

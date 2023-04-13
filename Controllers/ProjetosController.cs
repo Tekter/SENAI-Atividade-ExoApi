@@ -18,7 +18,7 @@ namespace ExoApi.Controllers
         }
 
         [HttpGet]
-        public IActionResult BuscaPorId(){
+        public IActionResult Listar(){
             return Ok(_projetoRepository.Listar());
         }
     }
