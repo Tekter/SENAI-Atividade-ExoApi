@@ -11,6 +11,15 @@ namespace ExoApi.Controllers
     [ApiController]
     public class ProjetosController : ControllerBase
     {
-        
+        private readonly ProjetoRepository _projetoRepository;
+
+        public ProjetosController(ProjetoRepository projetoRepository){
+            _projetoRepository = projetoRepository;
+        }
+
+        [HttpGet]
+        public IActionResult BuscaPorId(){
+            return Ok(_projetoRepository.Listar());
+        }
     }
 }

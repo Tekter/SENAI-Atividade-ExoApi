@@ -266,3 +266,13 @@ F:\PC\Downloads\SENAI\PROJETO-API-Chapter\ExoApi\obj\Debug\net6.0\refint\ExoApi.
 F:\PC\Downloads\SENAI\PROJETO-API-Chapter\ExoApi\obj\Debug\net6.0\ExoApi.pdb
 F:\PC\Downloads\SENAI\PROJETO-API-Chapter\ExoApi\obj\Debug\net6.0\ExoApi.genruntimeconfig.cache
 F:\PC\Downloads\SENAI\PROJETO-API-Chapter\ExoApi\obj\Debug\net6.0\ref\ExoApi.dll
+F:\PC\Documentos\GitHub\SENAI\SENAI-Atividade-ExoApi\obj\Debug\net6.0\ExoApi.csproj.AssemblyReference.cache
+F:\PC\Documentos\GitHub\SENAI\SENAI-Atividade-ExoApi\obj\Debug\net6.0\ExoApi.GeneratedMSBuildEditorConfig.editorconfig
+F:\PC\Documentos\GitHub\SENAI\SENAI-Atividade-ExoApi\obj\Debug\net6.0\ExoApi.AssemblyInfoInputs.cache
+F:\PC\Documentos\GitHub\SENAI\SENAI-Atividade-ExoApi\obj\Debug\net6.0\ExoApi.AssemblyInfo.cs
+F:\PC\Documentos\GitHub\SENAI\SENAI-Atividade-ExoApi\obj\Debug\net6.0\ExoApi.csproj.CoreCompileInputs.cache
+F:\PC\Documentos\GitHub\SENAI\SENAI-Atividade-ExoApi\obj\Debug\net6.0\ExoApi.MvcApplicationPartsAssemblyInfo.cs
+F:\PC\Documentos\GitHub\SENAI\SENAI-Atividade-ExoApi\obj\Debug\net6.0\ExoApi.MvcApplicationPartsAssemblyInfo.cache
+F:\PC\Documentos\GitHub\SENAI\SENAI-Atividade-ExoApi\obj\Debug\net6.0\ExoApi.dll
+F:\PC\Documentos\GitHub\SENAI\SENAI-Atividade-ExoApi\obj\Debug\net6.0\refint\ExoApi.dll
+F:\PC\Documentos\GitHub\SENAI\SENAI-Atividade-ExoApi\obj\Debug\net6.0\ExoApi.pdb
