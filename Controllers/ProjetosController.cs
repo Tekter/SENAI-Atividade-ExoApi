@@ -24,6 +24,12 @@ namespace ExoApi.Controllers
             return Ok(_projetoRepository.Listar());
         }
 
+        [HttpPost]
+        public IActionResult Cadastrar(Projeto projeto){
+            _projetoRepository.Cadastrar(projeto);
+            return StatusCode(201);
+        }
+
         [HttpGet("{id}")]
         public IActionResult BuscaPorId(int id)
         {
@@ -34,7 +40,7 @@ namespace ExoApi.Controllers
             return Ok(projeto);
         }
         
-        [HttpPost("{id}")]
+        [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Projeto projeto)
         {
             _projetoRepository.Atualizar(id, projeto);

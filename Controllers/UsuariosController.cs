@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ExoApi.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -18,8 +19,46 @@ namespace ExoApi.Controllers
         }
 
         [HttpGet]
-        public IActionResult Listar(){
+        public IActionResult Listar()
+        {
             return Ok(_usuarioRepository.Listar());
+        }
+
+        [HttpPost]
+        public IActionResult Cadastrar(Usuario usuario)
+        {
+            _usuarioRepository.Cadastrar(usuario);
+            return StatusCode(201);
+        }
+
+        [HttpGet("{id}")]
+        public IActionResult BuscaPorId(int id)
+        {
+            Usuario usuarioBuscado = _usuarioRepository.BuscaPorId(id);
+            if(usuarioBuscado == null){
+                return NotFound();
+            }
+            return Ok(usuarioBuscado);
+        }
+
+        [HttpPut("{id}")]
+        public IActionResult Atualizar(int id, Usuario usuario)
+        {
+            _usuarioRepository.Atualizar(id, usuario);
+            return StatusCode(204);
+        }
+
+        [HttpDelete("{id}")]
+        public IActionResult Deletar(int id){
+            try
+            {
+                _usuarioRepository.Deletar(id);
+                return StatusCode(204);
+            }
+            catch (Exception)
+            {
+                return BadRequest();
+            }
         }
     }
 }
